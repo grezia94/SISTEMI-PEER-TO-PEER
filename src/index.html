@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>TEATRO COMUNALE DI BOLOGNA</title>
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body style="background-color:rgba(235, 202, 14, 0.301)">
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <div>
+            <center>
+            <img src="images/teatro.jpg" alt="logo" hspace="20" >
+            </center>
+            <br>
+            <br>
+          </div>
+            <FONT FACE="Textile" COLOR=red SIZE=6.5>PRENOTA LA TUA POLTRONA A TEATRO</FONT>
+            <br>
+            <br>
+            <br>
+          <img src="images/pianta.jpeg" alt="pianta dei posti del teatro" hspace="20">
+         
+          <hr/>
+          <br/>
+        </div>
+      </div>
+
+      <div id="armchairRow" class="row">
+        <!-- ARMCHAIR LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="armchairTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-arm">
+          <div class="panel-heading">
+            <h3 class="panel-title">Scrappy</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="images/poltrona.jpg" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Fila</strong>: <span class="fila">A</span><br/>
+            <strong>N°</strong>: <span class="n">3</span><br/>
+            <button class="btn btn-default btn-prenot" type="button" data-id="0">Prenota</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+cd "apri cartella"
+truffle network --reset
+truffle network --clean
+
+-compilare il contratto
+truffle compile
+-migrazione del contratto sulla blokchain
+truffle migrate 
+-testare i vari contratti
+truffle test
+-eseguire il contratto sul broswer
+npm run dev 

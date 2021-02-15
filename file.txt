@@ -1,0 +1,22 @@
+1) contratto 
+/test/contracts/---> Store.sol
+
+2)
+/test/migrations/---> 2_deploy_contracts.js
+
+3) 
+/test/test/---> TestStore.sol
+
+4) pagina web
+/test/src/---> index.html
+
+5)
+/test/src/js/---> app.js
+
+6)
+/test/---> truffle_contract.js
+
+
+
+link errore:
+https://ethereum.stackexchange.com/questions/30921/tx-doesnt-have-the-correct-nonce-metamask
